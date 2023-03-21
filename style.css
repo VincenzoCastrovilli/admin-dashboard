@@ -40,6 +40,8 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 1fr 1fr;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px -3px;
 }
 
 .main-content {
@@ -83,4 +85,76 @@
 .main-actions div > span,
 .settings div > span {
   font-size: 1.5em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.search-bar {
+  background-color: rgb(190, 197, 195);
+  width: 400px;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.big {
+  width: 60px;
+  height: 60px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding: 10px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.greetings {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.username {
+  font-size: 26px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+  margin-right: 30px;
+  gap: 15px;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(4, 104, 255);
+  border: 1px solid rgb(4, 104, 255);
+  font-size: 14px;
 }
